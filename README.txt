@@ -9,6 +9,9 @@ I suggest using node
 To install node:
 https://nodejs.org/en/download/
 
+To install Cypress in Node:
+npm install cypress --save-dev
+
 For other ways to install, see reference: 
 https://docs.cypress.io/guides/getting-started/installing-cypress
 
