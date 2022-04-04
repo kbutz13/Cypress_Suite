@@ -1,1 +1,23 @@
+This Suite is using Cypress in Javascript - https://github.com/kbutz13/Cypress_Suite
+
 How to run Cypress tests
+
+To install cypress:
+I suggest using node
+  >> Node.js 12 or 14 and above is required
+To install node:
+https://nodejs.org/en/download/
+
+For other ways to install, see reference: 
+https://docs.cypress.io/guides/getting-started/installing-cypress
+
+To open Cypress, in IDE, open terminal and  run 'npx cypress open'
+
+If this is the first time opening, it might take a while.
+A Cypress Window will appear, and there will be the file structure of this projects Cypress > Integration folder inside
+
+To run tests, simply double click on the file name 
+or
+Select 'Run 3 integration specs' to run all 3 at once
+
+

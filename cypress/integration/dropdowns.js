@@ -1,6 +1,6 @@
 /// <reference types="cypress"/>
 
-// <-------- Drag and Drop Tests -------->
+// <-------- Dropdown Tests -------->
 
 describe('Dropdown', () => {
     beforeEach(() => {
@@ -12,17 +12,15 @@ describe('Dropdown', () => {
             cy.get('h3').should('have.text', 'Dropdown List');
              })
 
-        // it('Verify Default position - Box A is in column a', () => {
-        //     cy.get('#column-a').should('have.text', 'A')
-        
-        //     })
+        it('Verify option 1 in dropdown when selected', () => {
+            cy.get('select').select('Option 1').should('have.value', '1')
+            cy.get('select').children('option[selected="selected"]').contains('Option 1')
+            })
 
-        // it('Verify Default position - Box B is in column b', () => {
-        //     cy.get('#column-b').should('have.text', 'B')
-            
-            // })
-    
-        
+        it('Verify option 2 in dropdown when selected', () => {
+            cy.get('select').select('Option 2').should('have.value', '2')
+            cy.get('select').children('option[selected="selected"]').contains('Option 2')
+            })   
 
 })
 
