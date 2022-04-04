@@ -25,6 +25,7 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 
+
 Cypress.Commands.add('selectCheckbox', (index) => {
     cy.get('form[id=checkboxes]').children("input").eq(index).click()
 

@@ -1,6 +1,7 @@
 This Suite is using Cypress in Javascript - https://github.com/kbutz13/Cypress_Suite
 
 How to run Cypress tests
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 To install cypress:
 I suggest using node
@@ -10,6 +11,12 @@ https://nodejs.org/en/download/
 
 For other ways to install, see reference: 
 https://docs.cypress.io/guides/getting-started/installing-cypress
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+How to open Cypress once installed
+_____________________________________________________________________
 
 To open Cypress, in IDE, open terminal and  run 'npx cypress open'
 

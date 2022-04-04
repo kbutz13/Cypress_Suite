@@ -23,19 +23,14 @@ describe('Drag and Drop', () => {
             })
     
         it('Drag A to B, verify boxes end position is switched', () => {
-            // const dataTransfer = new DataTransfer;
-            // cy.get('#column-a').trigger('mousedown',{ which: 1, pageX: 600, pageY: 100 })
-            // cy.get('#column-a').trigger('mousedown', {which:1})
-            // cy.get('#column-a').trigger('mousedown')
-            cy.get('#column-a').click().trigger('mousemove', { pageX: 600, pageY: 600 })
-            // cy.get('#column-a').trigger('mousemove', { x:100, y:30 })
-            cy.get('#column-a').should('have.class', 'column-over')
-            // .trigger('dragstart',{dataTransfer});
-            // cy.get('#column-b').trigger('dragend', {dataTransfer})
-                
-           })
-        
+            const dataTransfer = new DataTransfer;
+     
+            cy.get('#column-a').first().trigger('dragstart', { dataTransfer });
+            cy.get('#column-b').first().trigger('drop', { dataTransfer })
+            
+            cy.get('#column-b').children('header').should('have.text', 'A')
+            cy.get('#column-a').children('header').should('have.text', 'B')
+            })
+
 
 })
-
-
