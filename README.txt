@@ -3,19 +3,16 @@ This Suite is using Cypress in Javascript - https://github.com/kbutz13/Cypress_S
 How to run Cypress tests
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-To install cypress:
-I suggest using node
-  >> Node.js 12 or 14 and above is required
-To install node:
+To install Node:
 https://nodejs.org/en/download/
 
 To install Cypress in Node:
 npm install cypress --save-dev
 
-For other ways to install, see reference: 
+For other ways to install Cypress, see reference: 
 https://docs.cypress.io/guides/getting-started/installing-cypress
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 
 
 How to open Cypress once installed
