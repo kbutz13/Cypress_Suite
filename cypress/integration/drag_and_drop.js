@@ -2,7 +2,7 @@
 
 // <-------- Drag and Drop Tests -------->
 
-describe('Drag and Drop', () => {
+describe('Drag and Drop tests', () => {
     beforeEach(() => {
         cy.visit('/')
         cy.get('a[href="/drag_and_drop"]').click();

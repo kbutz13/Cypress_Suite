@@ -2,7 +2,7 @@
 
 // <-------- Dropdown Tests -------->
 
-describe('Dropdown', () => {
+describe('Dropdown tests', () => {
     beforeEach(() => {
         cy.visit('/')
         cy.get('a[href="/dropdown"]').click();
